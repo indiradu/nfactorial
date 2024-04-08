@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 0 0 40%; /* Ширина колонки - 30% от родительского контейнера */
+}
+
+.news {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.news h2 {
+    margin-top: 0;
+}
+
+.news p {
+    margin-bottom: 0;
+}
+#pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#pagination button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color:#333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#pagination button:hover {
+    background-color: #333;
+}
+#categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#categories button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+#categories button.active {
+    background-color:#333;
+    color: #fff;
+}
+#searchForm {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#searchInput {
+    padding: 5px;
+    width: 200px;
+    margin-right: 5px;
+}
+
+#searchForm button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#searchForm button:hover {
+    background-color: #333;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    text-align: center;
+}
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
